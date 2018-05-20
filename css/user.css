@@ -1,0 +1,27 @@
+body{
+	margin: 0 auto;
+}
+.backgroundRu{
+  background-image: url(../img/pexels-photo-697673.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  display: flex;
+}
+#name{
+	position: relative;
+	top:150px;
+	left: 60px;
+	font-size: 60px;
+	font-family: 'Lobster', cursive;
+}
+#photo{
+	position: relative;
+	top: 50px;
+	left: 50px;
+	width: 20%;
+	border: 2px solid black;
+}
+
+
+

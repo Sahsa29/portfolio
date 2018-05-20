@@ -1,0 +1,145 @@
+@media only screen and (max-width :850px) { 
+
+	.pinterest img{
+		width: 180px;
+		height: 250px;
+		margin-left: 15px;
+	}
+	.dghbd h3{
+		display: none;
+	}
+	.imagas img{
+		margin-left: 25px;
+		width: 240px;
+		height: 300px;
+	}
+	.textSyl{
+		display: none;
+	}
+
+}
+@media only screen and (max-width :650px) { 
+		.menu{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.imgkona{
+			display: none;
+		}
+		.text  li:hover{
+		  color:  #515151;
+		}
+		.logo img{
+			width: 450px;
+		}
+		nav ul{
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+		}
+		.gouache{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.pinterest img{
+		width: 280px;
+		height: 300px;
+		}
+		.pinterest h2{
+			margin-top: 15px;
+		}
+		.dghbd h2{
+			font-size: 18px;
+		}
+		.black{
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+		}
+		.logfuter{
+			margin-left: 50px;
+		}
+		.lokan{
+			display: flex;
+			justify-content: center;
+		}
+
+	}
+
+	@media only screen and (max-width :650px){
+		.osnova{
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+		}
+		.pinterest img{
+		width: 200px;
+		height: 240px;
+		}
+		.imagas{
+			margin-left: 25%;
+		}
+		.works1{
+			margin-left: 15%;
+		}
+	}
+
+	@media only screen and (max-width :370px){
+		.text ul{
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+		}
+		.text li{
+			font-size: 25px;
+		}
+		.logo img{
+			width: 350px;
+		}
+		.gouache{
+			text-align: center;
+		}
+		.dghbd h2{
+			font-size: 12px;
+		}
+		.osnova img{
+			margin-right: 30px;
+			
+		}
+		.work h3{
+			margin-right: 40px;
+		}
+		
+		.liniya p{
+			font-size: 13px;
+			margin-left: 25px;
+			margin-right: 110px;
+			
+		}
+		.works1 {
+			margin-right: 140px;
+		}
+		.works img{
+			margin: 2px;
+		}
+		.paint h3{
+			margin-left: 25px;
+		}
+		.paints1{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.paints1 p{
+			font-size: 15px;
+		}
+		.paints1 img:hover{
+		-webkit-transform: scale(1);
+ 			}
+ 			.logfuter button{
+ 				margin-top: 15px;
+ 			}
+	}

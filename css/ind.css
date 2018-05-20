@@ -1,0 +1,279 @@
+body{
+	margin: 0 auto;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+	background-color: #000;
+}
+.text {
+	color: #fff;
+}
+.text ul{
+	display: flex;
+	list-style: none;
+}
+.text li{
+	display: flex;
+	margin: 5px;
+}
+.imgkona{
+	margin-right: 25px;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	text-align: center;
+}
+nav hr{
+ 	margin-right: 8%;
+ 	margin-left: 7%;
+
+}
+nav ul{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+}
+nav  li{
+	margin: 7px;
+}
+nav li:hover{
+	border-right: 3px solid #000;
+}
+.imgkona img{
+	width: 25px;
+	margin: 5px;
+}
+.gouache{
+	max-width: 1000px;
+	display: flex;
+}
+article{
+	display: flex;
+	justify-content: center;
+}
+.pinterest button{
+	position: relative;
+	top: -70px;
+	background-color: #FACC2E;
+	border:none;
+	text-align: center;
+	margin-left: 70px;
+	width: 90px;
+	padding: 7px;
+}
+.pinterest h2{
+    margin-top: -20px;	
+      font-family: 'Exo', sans-serif;
+	text-align: center;
+}
+section{
+	display: flex;
+	justify-content: space-around;
+}
+ .osnova{
+ 	max-width: 1000px;
+ 	display: flex;
+ }
+.dghbd{
+	display: flex;
+	justify-content: space-around;
+	margin-left: 10%;
+
+}
+.imagas{
+	display: flex;
+	flex-direction: column;
+}
+.imagas img{
+	width: 300px;
+	height: 340px;
+	margin-bottom: 25px;
+}
+.opus {
+	text-align: center;
+	margin: 30px 15px 120px 15px;
+}
+.opus button{
+	border: none;
+	background-color:  #FACC2E;
+	padding: 7px;
+	width: 90px;
+}
+.opus h2{
+	font-family: 'Exo', sans-serif;
+	font-size: 18px;
+}
+.opus img{
+	width: 5%;
+}
+.opus small{
+	font-family: 'Exo', sans-serif;
+}
+.about img{
+	width: 260px;
+	height: 260px;
+	margin-left: 100px;
+}
+.liniya{
+	margin-left: 100px;
+	font-family: 'Exo', sans-serif;
+}
+.liniya img{
+	width: 120px;
+	height: 40px;
+	margin-left: 150px;
+}
+.works1{
+	text-align: center;
+}
+.work{
+	margin-left: 100px;
+}
+.works1{
+	display: flex;
+}
+.works img{
+	width: 125px;
+	height: 125px;
+	margin: 5px;
+	padding: 0;
+}
+.works0 img{
+	width: 125px;
+	height: 125px;
+	margin: 5px;
+	padding: 0;
+}
+.works img:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ }
+ .works0 img:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ }
+.paint h3{
+	margin-left: 140px;
+}
+.paints1{
+	font-family: 'Exo', sans-serif;
+	display: flex;
+}
+.paints1 img{
+	width: 135px;
+	height: 140px;
+}
+.paints1 img:hover{
+ -webkit-transform: scale(1.6);
+}
+.paints1 p{
+	font-size: 25px;
+	margin-left: 25px;
+}
+
+.lus ul{
+width: 1400px;
+margin-left: 350px;
+}
+.lus li{
+	display: inline-block;
+}
+.lus  img{
+	display: block;
+}
+footer{
+	display: flex;
+    justify-content: center;
+	background-color: #151515;
+	color: #fff;
+	padding-bottom: 25px;
+}
+.black{
+	max-width: 1000px;
+	display: flex;
+	align-items: center;
+}
+.logfuter{
+	margin-right: 60px;
+}
+.logfuter span{
+	color: #FACC2E;
+}
+.logfuter h1{
+	font-size: 45px;
+	font-family: 'Dancing Script', cursive;
+}
+.logfuter p{
+	font-family: 'Exo', sans-serif;
+}
+
+.logfuter input{
+	border: none;
+	background-color: #424242;
+	text-align: center;
+	color: #fff;
+	padding: 7px;
+}
+.logfuter a{
+	color: #FACC2E;
+	top: 25px;
+	font-size: 20px;
+}
+.logfuter button{
+	background-color: #FACC2E;
+	border: none;
+	padding: 6px;
+	font-family: 'Exo', sans-serif;
+}
+.force a{
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+}
+.force{
+	margin-top: 80px;
+}
+form{
+	margin-top: 35px;
+}
+.make{
+	margin-left: 25px;
+}
+.make h3{
+	padding-top: 25px;
+	font-family: 'Exo', sans-serif;
+}
+.make p{
+	margin: 0;
+}
+.make input{
+	border: none;
+	background-color: #424242;
+	text-align: center;
+	color: #fff;
+	padding: 7px;
+	margin: 3px;
+}
+.make button{
+	background-color: #FACC2E;
+	border: none;
+	padding: 4px;
+	font-family: 'Exo', sans-serif;
+	margin-top: 15px;
+	width: 120px;
+	margin-left: 5px;
+}
+.lokan{
+	display: flex;
+	justify-content:flex-end;
+	background-color: black;
+}
+.lokan img{
+	width: 30px;
+	height: 30px;
+   margin: 15px 2px 12px 2px;
+
+}
